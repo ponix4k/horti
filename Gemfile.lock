@@ -243,7 +243,7 @@ DEPENDENCIES
   activesupport
   better_errors (~> 2.9, >= 2.9.1)
   bootstrap (~> 5.2.0)
-  contracts (~> 0.17)
+  contracts (~> 0.16)
   eventmachine
   font-awesome-middleman
   font-awesome-sass

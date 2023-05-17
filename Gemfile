@@ -11,7 +11,7 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw, :x64_mingw]
 gem 'activesupport'
 gem 'better_errors', '~> 2.9', '>= 2.9.1'
 gem 'eventmachine'
-gem 'contracts', '~> 0.17'
+gem 'contracts', '~> 0.16'
 gem 'pry'
 gem 'solargraph', '~> 0.48.0'
 
