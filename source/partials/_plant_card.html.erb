@@ -1,0 +1,73 @@
+<style>
+.card {
+	width: 300px;
+	height: 350px;
+	perspective: 800px;
+  border-radius: 7px;
+}
+
+.card-inner {
+	position: relative;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: transform 0.5s;
+}
+
+.card:hover .card-inner {
+	transform: rotateY(180deg);
+}
+
+.card-body {
+	position: absolute;
+	inset: 0;
+	display: grid;
+	place-items: center;
+	backface-visibility: hidden;
+	border-radius: 8px;
+	box-shadow: 0 5px 10px 
+		rgba(0, 0, 0, 0.15);
+}
+
+.card-body-f {
+
+}
+
+.card-body-b {
+	background: linear-gradient(-180deg,
+  #a1c9aa 0%,
+  #75f47c 100%);
+	transform: rotateY(180deg);
+}
+
+.card-text{
+  text-align: center;
+  stroke: 1px white;
+}
+
+.card-title{
+  color:black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+</style>
+
+<div class="card-columns">
+  <% data.plant.plants.each_with_index do |p, i| %>
+    <article class="card">
+      <div class="card-inner">
+        <div class="card-body card-body-f" style="background-image: url(<%= (p['bg_img_path'])%>);
+                                                  background-size:cover;
+                                                  opacity: 0.85;">
+        <h3 class="card-title" style="font-stlye: oblique;"><%= (p['latin_name']) %></h3>
+        </div>
+        <div class="card-body card-body-b">
+          <div class="card-text">
+            <h3 class="card-title"><% data.site.card.title %></h3><br>
+            <i class="fa fa-tint" aria-hidden="true"></i><p><%= (p['care-water']) %></p>
+            <i class="fa fa-sun-o" aria-hidden="true"></i><p><%= (p['care-light']) %></p>
+            <i class="fa fa-thermometer-empty" aria-hidden="true"></i><p><%= (p['care-temp']) %></p>
+          </div>
+        </div>
+      </div>
+    </article>
+  <% end %>
+</div
