@@ -1,0 +1,26 @@
+page:
+  title: 'Hort - i'
+  logo_src: '/images/logo/logo.svg'
+  author: 'John Williams'
+  author_mail_link: 'ponix@protonmail.com'
+card:
+  title: 'How do I care for it'
+navbar:
+  home_url: 'https://leighhack.org'
+  logo_alt: 'Leigh Hackspace'
+  logo_src: '/images/logos/HSLogo.svg'
+  author_home_url: 'https://projectmoonrope.co.uk'
+  author_logo_alt: 'Hort-i'
+  author_logo_src: '/images/logos/moon2.svg'
+footer:
+  author: 'John Williams'
+  mail_alt: 'Send Email'
+  mail_link: 'ponix@protonmail.com'
+  site_alt: 'Project Moonrope'
+  site_link: 'https://projectmoonrope.co.uk'
+  twitter_alt: '@ponix4k'
+  twitter_link: 'https://twitter.com/ponix4k'
+  mastodon_alt: 'ponix@mastodon'
+  mastodon_link: 'https://infosec.exchange/@Ponix'
+  github_alt: 'ponix4k'
+  github_link: 'https://github.co.uk/ponix4k'

@@ -1,0 +1,33 @@
+plants:
+  - name: 'plant-1'
+    plant_name: "Plant-1"
+    latin_name: "Echinocactus grusonii"
+    bg_img_path: "/images/plant-1.jpg"
+    bg_img_alt: "plant 1"
+    country_of_origin: "--"
+    care-water: "2 times a week, half a cup of water"
+    care-light: "Not in direct sunlight"
+    care-temp:  "We like it warm"
+    did_you_know: "--"
+  - name: 'plant-2'
+    plant_name: "Plant-2"
+    latin_name: "Opuntia Microdasys Albispina"
+    bg_img_path: "/images/plant-2.jpg"
+    bg_img_alt: "plant 2"
+    country_of_origin: "--"
+    care-water: "2 times a week, half a cup of water"
+    care-light: "Not in direct sunlight"
+    care-temp:  "We like it warm"
+    did_you_know: "--"
+  - name: 'plant-3'
+    plant_name: "Plant-3"
+    latin_name: "Hoya Variegated"
+    bg_img_path: "/images/plant-3.jpg"
+    bg_img_alt: "plant 3"
+    country_of_origin: "--"
+    care-water: "2 times a week, half a cup of water"
+    care-light: "Not in direct sunlight"
+    care-temp:  "We like it warm"
+    did_you_know: "--"
+  
+  
